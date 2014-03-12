@@ -111,6 +111,7 @@ const int unionSize = 20;
     interItemSpacingY = interItemSpacingX;
   }
   
+  _sectionItemAttributes = [NSMutableArray new];
   _sectionItemCount = [[NSMutableArray alloc] initWithCapacity:numberOfSections];
   
   _headersAttributes = nil;
